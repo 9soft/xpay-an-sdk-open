@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">XPayDemo</string>
+    <string name="ok">完成</string>
+
+    <string name="ali_scan_allin">支付宝扫码支付通联渠道</string>
+    <string name="alipay_app">支付宝移动支付</string>
+    <string name="wx_app">微信APP支付</string>
+    <string name="confirm">确认</string>
+    <string name="yuan">元</string>
+    <string name="donateFailMessage">\u3000\u3000感谢你的爱心，\n但是系统出现了一些错误</string>
+    <string name="validationErrors">错误</string>
+    <string name="notInstalled">未安装支付软件</string>
+    <string name="amount">支付金额</string>
+    <string name="payway">选择支付方式</string>
+    <string name="missingImage">图片加载失败</string>
+    <string name="title_activity_yi_shou_kuan">壹收款</string>
+    <string name="hello_world">Hello world!</string>
+</resources>

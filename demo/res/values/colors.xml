@@ -1,0 +1,7 @@
+<resources>
+    <color name="editText">#AAAAAA</color>
+    <color name="blue">#008dff</color>
+    <color name="gray">#bbbbbb</color>
+    <color name="whitesmoke">#F5F5F5</color><!--烟白色 -->
+    <color name="darkorange">#FF8C00</color><!--暗桔黄色 -->
+</resources>
