@@ -37,16 +37,19 @@ dependencies {
 -  SDK所需要注册
 
 ``` xml
+        <!-- XPay sdk -->
         <activity
-                android:name="com.xpay.demoapp.MainActivity"
-                android:screenOrientation="portrait">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                android:name="com.xpay.sdk.PaymentActivity"
+                android:configChanges="orientation|screenSize"
+                android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                android:launchMode="singleTop">
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="XXXXXXXX"/>
             </intent-filter>
-        </activity>
-        <activity android:name="com.xpay.demoapp.ClientSDKActivity">
         </activity>
 ```
 
