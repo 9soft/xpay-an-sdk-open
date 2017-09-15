@@ -6,7 +6,7 @@ Android 中集成  SDK
 
 修改ClientSDKActivity类中参数YOUR_URL为自己支付服务器端charge生成接口
 
-例如：YOUR_URL = "http://192.168.1.10710:8088/payment/api_payment";
+例如：YOUR_URL = "http://192.168.1.107:8088/payment/api_payment";
 
 <font color="red">需要注意: </font>确保服务器端获取charge接口畅通。
 

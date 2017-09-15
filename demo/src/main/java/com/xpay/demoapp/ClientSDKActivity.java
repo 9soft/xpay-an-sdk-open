@@ -22,7 +22,7 @@ public class ClientSDKActivity extends Activity implements OnClickListener {
     /**
      * 开发者需要填一个服务端URL 该URL是用来请求支付需要的charge。务必确保，URL能返回json格式的charge对象。
      */
-    private static String YOUR_URL = "http://106.15.61.28:9080/payment/api_payment";
+    private static String YOUR_URL = "http://106.15.61.30:9080/payment/api_payment";
     public static final String CHARGE_URL = YOUR_URL;
     private Button aliPayButton;
 
